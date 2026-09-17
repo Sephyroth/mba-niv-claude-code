@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "github": {
+      "type": "stdio",
+      "command": "docker",
+      "args": [
+        "compose",
+        "run",
+        "--rm",
+        "-T",
+        "gh-mcp"
+      ],
+      "env": {}
+    }
+  }
+}
